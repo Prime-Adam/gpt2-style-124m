@@ -1,0 +1,20 @@
+# Publish exported model files to Hugging Face, not ordinary Git.
+*.pt
+*.pth
+*.bin
+*.safetensors
+exports/
+checkpoints/
+data/
+.env
+.env.*
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+tests/assets/
